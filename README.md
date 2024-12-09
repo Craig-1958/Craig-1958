@@ -107,12 +107,12 @@ video {
     text-align: center;
 }
 
-</style>
-</head>
-<body style="--bg-width: 100%; --bg-height: 100%;">
-<div id="prompt">Due to boring internet policies, you have to click<br> here </div>
-<div class="container" id="content" style="display: none;">
-    <p>My Portfolio<br>
+	</style>
+	</head>
+	<body style="--bg-width: 100%; --bg-height: 100%;">
+	<div id="prompt">Due to boring internet policies, you have to click<br> here </div>
+	<div class="container" id="content" style="display: none;">
+    		<p>My Portfolio<br>
     Hi there, I'm @Craig Smith.<br><br>
     About Me<br>
     As of writing this, I am currently 19 years old with a mad facination of technology,that does not end with computers.
@@ -184,22 +184,22 @@ video {
     <audio id="background-audio" src="Windows-95.wav" style="display: none;">
         Your browser does not support the audio element.
     </audio>
-</div>
-<script>
+	</div>
+	<script>
 	document.getElementById('prompt').addEventListener('click', function() {
     document.getElementById('prompt').style.display = 'none';
     document.getElementById('content').style.display = 'block';
     var video = document.getElementById('background-video');
     video.muted = false;
     video.play(); 
-});
+	});
 
-document.getElementById('background-video').addEventListener('ended', function() {
+	document.getElementById('background-video').addEventListener('ended', function() {
     this.style.display = 'none';
     var audio = document.getElementById('background-audio');
     audio.play();
     document.body.style.backgroundImage = "url('windows-95-pc.jpg')"; // Change background image
-});
-</script>
-</body>
-</html>
+	});
+	</script>
+	</body>
+	</html>
