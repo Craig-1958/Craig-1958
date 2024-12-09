@@ -51,7 +51,7 @@ video {
     position: absolute;
     top: 0;
     left: 0;
-    min-width: 1%;
+    min-width: 50%;
     min-height: 1%;
     max-width: 100%;
     max-height: 100;
