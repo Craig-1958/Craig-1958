@@ -37,7 +37,7 @@ p {
 	
  	text-align: center;
     position: relative;
-    min-width: 100%;
+    min-width: 400%;
     min-height: 100%;
 
 
