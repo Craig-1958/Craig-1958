@@ -50,9 +50,11 @@ video {
 
     position: absolute;
     top: 0;
-    left: 100;
     min-width: 100%;
     min-height: 100%;
+
+    width: auto;
+    height: auto;
     max-width: 50;
     object-fit: cover;
     z-index: 1; /* Ensure the video appears above other elements */
