@@ -34,7 +34,7 @@ p {
 .container {
     text-align: center;
     position: relative;
-    width: 100%;
+    width: 1000%;
     height: 100%;
 }
 
