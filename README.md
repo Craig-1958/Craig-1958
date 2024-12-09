@@ -37,11 +37,13 @@ p {
     min-width: 100%;
     min-height: 100%;
 
+
     width: auto;
     height:auto;
 }
 
 video {
+
     position: absolute;
     top: 0;
     left: 0;
