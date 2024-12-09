@@ -50,10 +50,13 @@ video {
     position: absolute;
     top: 0;
     left: 0;
-    width: 50%;
-    height: 100%;
+    min-width: 100%;
+    min-height: 100%;
     object-fit: cover;
     z-index: 1; /* Ensure the video appears above other elements */
+
+    width: auto;
+    height: auto;
 }
 
 #link-image1 {
