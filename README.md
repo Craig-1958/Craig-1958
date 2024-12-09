@@ -55,6 +55,10 @@ video {
     min-height: 100%;
     object-fit: cover;
     z-index: 1; /* Ensure the video appears above other elements */
+
+    width: auto;
+    height: auto;
+    centre: auto;
 }
 
 #link-image1 {
