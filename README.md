@@ -37,7 +37,7 @@ p {
 	
  	text-align: center;
     position: relative;
-    min-width: 400%;
+    min-width: 100%;
     min-height: 100%;
 
 
@@ -50,8 +50,8 @@ video {
     position: absolute;
     top: 0;
     left: 0;
-    width: 400vh;
-    height: 100vh;
+    width: 50%;
+    height: 100%;
     object-fit: cover;
     z-index: 1; /* Ensure the video appears above other elements */
 }
