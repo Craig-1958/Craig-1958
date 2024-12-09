@@ -1,6 +1,4 @@
-	<html>
-	<head>
-	<style>
+
 body {
 	
 	--bg-width: 100%; /* Define CSS variables */
