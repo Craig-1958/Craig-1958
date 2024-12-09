@@ -37,8 +37,8 @@ p {
 	
  	text-align: center;
     position: relative;
-    min-width: 400%;
-    min-height: 100%;
+    min-width: 400vh;
+    min-height: 100vh;
 
 
     width: auto;
