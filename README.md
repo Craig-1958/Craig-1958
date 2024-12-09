@@ -42,7 +42,8 @@ p {
 
 
     width: auto;
-    height:auto;
+    height: auto;
+    centre: auto;
 }
 
 video {
