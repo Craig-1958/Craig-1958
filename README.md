@@ -50,8 +50,8 @@ video {
     position: absolute;
     top: 0;
     left: 0;
-    min-width: 1%;
-    min-height: 1%;
+    min-width: 1000%;
+    min-height: 1000%;
     object-fit: cover;
     z-index: 1; /* Ensure the video appears above other elements */
 
