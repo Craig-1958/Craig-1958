@@ -2,9 +2,8 @@
     <html>
     <head>
     <style>
-body {
-      
-    --bg-width: 100%; /* Define CSS variables */
+    body {
+    --bg-width: 100%; /* Define CSS variables */
     --bg-height: 100%;
     background-image: url('install-screen.jpg');
     background-repeat: no-repeat;
@@ -16,7 +15,7 @@ body {
     align-items: left;
     height: 100vh;
     margin: 0;
-}
+    }
 
 p {
 
