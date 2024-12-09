@@ -32,7 +32,8 @@ p {
 }
 
 .container {
-    text-align: center;
+	
+ 	text-align: center;
     position: relative;
     min-width: 100%;
     min-height: 100%;
@@ -54,7 +55,8 @@ video {
 }
 
 #link-image1 {
-    position: absolute;
+
+	position: absolute;
     top: 20%; /* Adjust this value to move the image vertically */
     left: 90%; /* Adjust this value to move the image horizontally */
     width: 100px; /* Adjust this value to set the width of the image */
@@ -64,7 +66,8 @@ video {
 }
 
 #link-image2 {
-    position: absolute;
+
+	position: absolute;
     top: 30%; /* Adjust this value to move the image vertically */
     left: 85%; /* Adjust this value to move the image horizontally */
     width: 42px; /* Adjust this value to set the width of the image */
@@ -74,7 +77,8 @@ video {
 }
 
 #link-image3 {
-    position: absolute;
+
+	position: absolute;
     top: 20%; /* Adjust this value to move the image vertically */
     left: 85%; /* Adjust this value to move the image horizontally */
     width: 35px; /* Adjust this value to set the width of the image */
@@ -84,7 +88,8 @@ video {
 }
 
 #prompt {
-    position: fixed;
+
+	position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
