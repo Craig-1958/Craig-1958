@@ -112,7 +112,7 @@ video {
     As of now, my knowlege only span to a few coding languages such as c++, sql, HTML and Python. In cyber security I have learned verious encryption
 	methodes such as The Caeser Cipher and vigenere cipher. I have also looked into cyber forensic and its process. Additionaly I have also learnt how to create a working
 	database using SQL and Microsoft acces, and I use online tools such as draw IO to plan and structire the database. I Also know how to create a website using HTML while Also
-	using tools like draw IO to help design them<br>
+	using tools like draw IO to help design them.<br>
     
     <img src="c++.png" alt="Image 1" style="width:150px;height:100px;"> <img src="html5-logo.png" alt="Image 2" style="width:100px;height:100px;"> <img src="sql-database.png" alt="Image 3" style="width:100px;height:100px;"> <img src="Python.png" alt="Image 4" style="width:100px;height:100px;"><br><br>
     Recent Projects<br>
@@ -135,13 +135,13 @@ video {
 	specified name occures in the list. If it does it should say how many times it appered. if not it should say it dosent apear on the list.<br>
     . Lottery Winners in C++: This was simuler to the identical arrays work but, it only has to be a number, not the whole array<br>
     . Test Score #1 in C++: In this code, I needed to create an array that holds any amount of elements defined by the user. Once every number
-	is entered, it should sort them in assending order while also calculating the average score<br>
-    . Test Score #2 in C++: This builds off of Test Score #1, but This time it needs to pair both names and scores while still calculating the average score <br>
+	is entered, it should sort them in assending order while also calculating the average score.<br>
+    . Test Score #2 in C++: This builds off of Test Score #1, but This time it needs to pair both names and scores while still calculating the average score. <br>
     . Sports Team Database in SQL: For my final Information Management, Assurance And Security modual I needed to create a database for a sports
 	club that holds the team, Players, physios, headcoach, club and match. I then needed to run querys to get answers for certain question outlined in the breif.
-	GitHub Portfolio in HTML: As you can see from this portfolio, this to is the assignment for Professionalism, Employability, Enterprise, and Problem-Solving<br>
+	GitHub Portfolio in HTML: As you can see from this portfolio, this to is the assignment for Professionalism, Employability, Enterprise, and Problem-Solving.<br>
 	<br>
-	There is the list of work that I can Show in the reposatory<br><br>
+	There is the list of work that I can Show in the reposatory.<br><br>
     Hobbies<br>
     During The time I have between assisgnments, I fill it in by doing a few of my favourite activitys. The number one activity I like to do is play on my
 	Guitar. From a young age, I have always been facinated by the music of yesteryear such has Black Sabboth, The Rolling Stones, Motorhead, The Beatles and even 
