@@ -1,7 +1,7 @@
 	<!DOCTYPE html>
 	<html>
 	<head>
-<style>
+	<style>
 body {
 	
 	--bg-width: 100%; /* Define CSS variables */
