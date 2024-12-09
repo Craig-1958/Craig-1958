@@ -1,9 +1,8 @@
-	<!DOCTYPE html>
-	<html>
-	<head>
-	<style>
-body {
-	
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+	body {
 	--bg-width: 100%; /* Define CSS variables */
     --bg-height: 100%; 
     background-image: url('install-screen.jpg');
@@ -17,9 +16,7 @@ body {
     height: 100vh;
     margin: 0;
 }
-
-p {
-
+	p {
 	text-align: left; /* Align text to the left */
     color: black; /* Adjust color if needed for visibility */
     position: absolute;
@@ -32,36 +29,27 @@ p {
     overflow: auto; /* Add scroll bar if content exceeds max-height or max-width */
     background-color: rgba(255, 255, 255, 0); /* Fully transparent background */
 }
-
 .container {
-	
- 	text-align: center;
+	text-align: center;
     position: relative;
     min-width: 100%;
     min-height: 100%;
-
-
     width: auto;
     height: auto;
     centre: auto;
 }
-
 video {
-
     position: absolute;
     top: 0;
     min-width: 100%;
     min-height: 100%;
-
     width: auto;
     height: auto;
     max-width: 50;
     object-fit: cover;
     z-index: 1; /* Ensure the video appears above other elements */
 }
-
 #link-image1 {
-
 	position: absolute;
     top: 20%; /* Adjust this value to move the image vertically */
     left: 90%; /* Adjust this value to move the image horizontally */
@@ -70,9 +58,7 @@ video {
     transform: translate(-50%, -50%);
     z-index: 0; /* Ensure the image appears below the video */
 }
-
 #link-image2 {
-
 	position: absolute;
     top: 30%; /* Adjust this value to move the image vertically */
     left: 85%; /* Adjust this value to move the image horizontally */
@@ -81,9 +67,7 @@ video {
     transform: translate(-50%, -50%);
     z-index: 0; /* Ensure the image appears below the video */
 }
-
 #link-image3 {
-
 	position: absolute;
     top: 20%; /* Adjust this value to move the image vertically */
     left: 85%; /* Adjust this value to move the image horizontally */
@@ -92,10 +76,8 @@ video {
     transform: translate(-50%, -50%);
     z-index: 0; /* Ensure the image appears below the video */
 }
-
 #prompt {
-
-	position: fixed;
+    position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
