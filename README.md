@@ -1,25 +1,23 @@
 <!DOCTYPE html>
-    <html>
-    <head>
-    <style>
+<html>
+<head>
+<style>
     body {
-    --bg-width: 100%; /* Define CSS variables */
-    --bg-height: 100%;
-    background-image: url('install-screen.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: left;
-    background-size: var(--bg-width) var(--bg-height); /* Control size using variables */
-    display: flex;
-    justify-content: left;
-    align-items: left;
-    height: 100vh;
-    margin: 0;
-    }
-
-p {
-
-      text-align: left; /* Align text to the left */
+        --bg-width: 100%; /* Define CSS variables */
+        --bg-height: 100%;
+        background-image: url('install-screen.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: left;
+        background-size: var(--bg-width) var(--bg-height); /* Control size using variables */
+        display: flex;
+        justify-content: left;
+        align-items: left;
+        height: 100vh;
+        margin: 0;
+        }
+    p {
+    text-align: left; /* Align text to the left */
     color: black; /* Adjust color if needed for visibility */
     position: absolute;
     top: 48%; /* Adjust this value to move the text vertically */
@@ -31,22 +29,17 @@ p {
     overflow: auto; /* Add scroll bar if content exceeds max-height or max-width */
     background-color: rgba(255, 255, 255, 0); /* Fully transparent background */
 }
-
-.container {
+    .container {
       
-      text-align: center;
+    text-align: center;
     position: relative;
     min-width: 100%;
     min-height: 100%;
-
-
     width: auto;
     height: auto;
     centre: auto;
-}
-
-video {
-
+        }
+    video {
     position: absolute;
     top: 0;
     left: 100;
@@ -57,54 +50,46 @@ video {
     z-index: 1; /* Ensure the video appears above other elements */
     width: auto;
     height: auto;
-}
-
-#link-image1 {
-
-      position: absolute;
-    top: 20%; /* Adjust this value to move the image vertically */
-    left: 90%; /* Adjust this value to move the image horizontally */
-    width: 100px; /* Adjust this value to set the width of the image */
-    height: 100px; /* Adjust this value to set the height of the image */
-    transform: translate(-50%, -50%);
-    z-index: 0; /* Ensure the image appears below the video */
-}
-
-#link-image2 {
-
-      position: absolute;
-    top: 30%; /* Adjust this value to move the image vertically */
-    left: 85%; /* Adjust this value to move the image horizontally */
-    width: 42px; /* Adjust this value to set the width of the image */
-    height: 35px; /* Adjust this value to set the height of the image */
-    transform: translate(-50%, -50%);
-    z-index: 0; /* Ensure the image appears below the video */
-}
-
-#link-image3 {
-
-      position: absolute;
-    top: 20%; /* Adjust this value to move the image vertically */
-    left: 85%; /* Adjust this value to move the image horizontally */
-    width: 35px; /* Adjust this value to set the width of the image */
-    height: 35px; /* Adjust this value to set the height of the image */
-    transform: translate(-50%, -50%);
-    z-index: 0; /* Ensure the image appears below the video */
-}
-
-#prompt {
-
-      position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: rgba(0, 0, 0, 0.8);
-    color: white; /* Change text color to white */
-    padding: 20px;
-    border-radius: 10px;
-    z-index: 10;
-    text-align: center;
-}
+        }
+    #link-image1 {
+        position: absolute;
+        top: 20%; /* Adjust this value to move the image vertically */
+        left: 90%; /* Adjust this value to move the image horizontally */
+        width: 100px; /* Adjust this value to set the width of the image */
+        height: 100px; /* Adjust this value to set the height of the image */
+        transform: translate(-50%, -50%);
+        z-index: 0; /* Ensure the image appears below the video */
+        }
+    #link-image2 {
+        position: absolute;
+        top: 30%; /* Adjust this value to move the image vertically */
+        left: 85%; /* Adjust this value to move the image horizontally */
+        width: 42px; /* Adjust this value to set the width of the image */
+        height: 35px; /* Adjust this value to set the height of the image */
+        transform: translate(-50%, -50%);
+        z-index: 0; /* Ensure the image appears below the video */
+    }
+    #link-image3 {
+        position: absolute;
+        top: 20%; /* Adjust this value to move the image vertically */
+        left: 85%; /* Adjust this value to move the image horizontally */
+        width: 35px; /* Adjust this value to set the width of the image */
+        height: 35px; /* Adjust this value to set the height of the image */
+        transform: translate(-50%, -50%);
+        z-index: 0; /* Ensure the image appears below the video */
+    }
+    #prompt {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: rgba(0, 0, 0, 0.8);
+        color: white; /* Change text color to white */
+        padding: 20px;
+        border-radius: 10px;
+        z-index: 10;
+        text-align: center;
+    }
 
 </style>
 </head>
