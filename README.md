@@ -34,7 +34,7 @@ p {
 .container {
     text-align: center;
     position: relative;
-    width: 1000%;
+    width: 100%;
     height: 100%;
 }
 
@@ -42,8 +42,8 @@ video {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
+    width: 1000%;
+    height: 1000%;
     object-fit: cover;
     z-index: 1; /* Ensure the video appears above other elements */
 }
