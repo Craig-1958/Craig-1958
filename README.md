@@ -1,4 +1,3 @@
-	<!DOCTYPE html>
 	<html>
 	<head>
 	<style>
@@ -58,8 +57,6 @@ video {
     max-width: 50;
     object-fit: cover;
     z-index: 1; /* Ensure the video appears above other elements */
-    width: auto;
-    height: auto;
 }
 
 #link-image1 {
