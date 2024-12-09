@@ -3,7 +3,8 @@
 <head>
 <style>
 body {
-    --bg-width: 100%; /* Define CSS variables */
+	
+	--bg-width: 100%; /* Define CSS variables */
     --bg-height: 100%; 
     background-image: url('install-screen.jpg');
     background-repeat: no-repeat;
@@ -18,7 +19,8 @@ body {
 }
 
 p {
-    text-align: left; /* Align text to the left */
+
+	text-align: left; /* Align text to the left */
     color: black; /* Adjust color if needed for visibility */
     position: absolute;
     top: 48%; /* Adjust this value to move the text vertically */
@@ -180,7 +182,7 @@ video {
     </audio>
 </div>
 <script>
-document.getElementById('prompt').addEventListener('click', function() {
+	document.getElementById('prompt').addEventListener('click', function() {
     document.getElementById('prompt').style.display = 'none';
     document.getElementById('content').style.display = 'block';
     var video = document.getElementById('background-video');
